@@ -1,0 +1,334 @@
+* { -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: none;
+}
+
+. html, blody {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    font-family: "Roboto", Open Sans, sans-serif;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto", Open Sans, sans-serif;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 19px;
+    font-weight: 100;
+}
+
+img {
+    width: 50%;
+    height: 50%;
+}   
+
+/*GRID*/
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+}
+
+.container:before,
+.container:after {
+    content: " ";
+    display: table;
+}
+
+.container:after {
+    clear: both;
+}
+
+.one-half, .one-third, .one-fourth {
+    width: 96%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    margin: 0 2% 20px;
+}
+
+/*Dashboard*/
+
+.dashboard {
+    background: #f7f7f7;
+}
+
+.left-nav {
+    height: 100vh;
+    width: 285px;
+    color: #fff;
+    background: #018EA7;
+    float: left;
+    position: fixed;
+    display: block;
+}
+
+/*add logo styling!*/
+
+.left-nav .nav-menu {
+    padding: 0 6%;
+}
+
+.left-nav .nav-menu p {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #e2e2e2;
+    line-height: 15px;
+}
+
+.left-nav .nav-menu ul {
+    margin: 0 0 40px;
+    padding: 0;
+}
+
+.left-nav .nav-menu ul li {
+    font-size: 20px;
+    padding: 1em;
+    list-style-type: none;
+    margin-bottom: 15px;
+}
+
+.left-nav .nav-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+.left-nav .nav-menu ul li a i {
+    width: 16px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.left-nav .site-logo img {
+    width: 285px;
+    height: auto;
+}
+
+/*CONTENT*/
+
+.content {
+    float: left;
+    position: relative;
+}
+
+.content .header {
+    margin: 10 1% 20px;
+}
+
+.content .header p {
+    font-family: "Roboto", Open Sans, sans-serif;
+    font-weight: 100;
+    margin: 16px;
+    font-size: 15px;
+    color: #333333;
+    line-height: 1.5em;
+    float: left;
+    display: inline-block;
+}
+
+.content .header > a {
+    float: left;
+}
+
+.content .header ul {
+    font-family: "Roboto", Open Sans, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+    margin: 0 0 30px;
+    padding: 20px;
+    float: right;
+}
+
+.content .header ul li {
+    list-style-type: none;
+    color: #333333;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.content .header ul li a {
+    color: #fff;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+.content .header ul li a i 
+    {
+    width: 16px;
+    text-align: center;
+    margin-right: 8px;
+}
+
+.content .dash h1 {
+    text-align: left;
+    font-size: 60px;
+}
+
+.content .dash h2 {
+    padding-top: 0.5em;
+    text-align: left;
+    font-size: 40px;
+}
+
+
+.content .dash .title ul li {
+    margin-right: 20em;
+    padding-bottom: .5em;
+}
+
+.content .dash  a {
+    color: #333;
+    text-decoration: underline;
+    font-weight: 100;
+}
+
+.content .dash ul {
+    font-family: "Roboto", Open Sans, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    color: #333333;
+}
+
+.content .dash ul li {
+    list-style-type: none;
+    color: #333333;
+    display: inline-block;
+    padding-top: 1em;
+    margin-right: 10px;
+}
+
+    
+
+
+
+@media (min-width: 768px) {
+    .content {
+        padding: 1em 5%;
+        float: right;
+        width: 95%;
+        position: relative;
+    }
+    
+    .content > .container {
+        width: 1000px;
+    }
+    
+#myInput {
+    margin-top: 50px;
+    background-repeat: no-repeat; 
+    width: 50%; 
+    font-size: 12px; 
+    padding: 12px  20px 12px 40px;
+    border: 1px solid #ddd; 
+    margin-bottom: 12px; 
+}
+
+#myTable {
+    border-collapse: collapse; 
+    width: 50%; 
+    overflow-y: auto;
+    border: 1px solid #ddd; 
+    font-size: 12px; 
+}
+
+#myTable th, #myTable td {
+    text-align: left; 
+    padding: 12px; 
+}
+
+#myTable tr {
+   
+    border-bottom: 1px solid #ddd; 
+}
+
+#myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+}
+
+    
+/*Drawer*/
+    
+.menu {
+  background: #96D5E0;
+  left: -285px;  /* start off behind the scenes */
+  height: 100%;
+  position: fixed;
+  width: 285px;
+  top: 0px;
+  overflow-y: scroll;
+}
+    
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.drawer-menu {
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+}
+    
+.hidden>div {
+    display:none;
+}
+
+.visible>div {
+    display:inline;
+    margin-left: 55%;
+}
+
+
+    
+    
+

@@ -1,148 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <title>BriteCore Agency Dashboard</title>
-    
-<!-------Google Fonts----->
-        
+
+    <!-- Google Fonts -->
+
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        
-<!-------CSS-------------->
-        
+
+    <!-- CSS -->
+
     <link rel="stylesheet" type="text/css" href="styles/normalize.css">
-    <link rel="stylesheet" type="text/css" href="styles/style.css"
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
 </head>
+
 <body class="dashboard">
-    
-<!------Left Nav------->
-    
+
+    <!-- Left Nav -->
+
     <nav id="left-nav" class="left-nav">
         <a href="#" class="site-logo"><img src="assets/metlife-logo.png"></a>
         <div class="nav-menu">
             <ul>
                 <li><a href="#">Overview</a></li>
-                <li><div class="drawer-menu">Active States</div>
-                <li><a href="#">Documentation</a></li>
-                <li><a href="#">Agency Information</a></li>
-                <li><a href="#">Deactivate Agency</a></li>
+                <li>
+                    <div class="drawer-menu">Active States</div>
+                    <li><a href="#">Documentation</a></li>
+                    <li><a href="#">Agency Information</a></li>
+                    <li><a href="#">Deactivate Agency</a></li>
             </ul>
         </div>
         <div class="menu">
-        <!-- Menu Icon -->
-            
-        <div class="icon-close">
-        <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png"></div>
-        <!-- Slideout Menu -->
+            <!-- Menu Icon -->
+
+            <div class="icon-close">
+                <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/uber/close.png"></div>
+            <!-- Slideout Menu -->
             <ul>
-        <li><a href="#">Alabama</a></li>
-        <li><a href="#">Arkansas</a></li>
-        <li><a href="#">California</a></li>
-        <li><a href="#">Connecticut</a></li>
-        <li><a href="#">Delaware</a></li>
-        <li><a href="#">Hawaii</a></li>
-        <li><a href="#">Illinois</a></li>
-        <li><a href="#">Michigan</a></li>
-        <li><a href="#">Missouri</a></li>
-        <li><a href="#">Nebraska</a></li>
-        <li><a href="#">Oregon</a></li>
-        <li><a href="#">Pennsylvania</a></li>
-        <li><a href="#">Virginia</a></li>
-        <li><a href="#">Washington</a></li>
-      </ul>
-    </div>
-    </nav>                     
-<main role="main">
-    <section class="content">
-        <div class="container">
-            <div class="header">
-                <a href="#"><p>Search Agencies</p></a>
-                <ul>
-                    <a href="#"><li>All Agencies</li></a>
-                    <a href="#"><li>Account Settings</li></a>
-                    <a href="#"><li>Help</li></a>
-                    <a href="#"><li>BriteCore</li></a>
-                </ul>
-            </div>
-            <div class="dash">
-                <br><br><br><br>
-                <h2>California</h2><div class="title"><ul><li style="30px;">License #2329101-2343921</li><li><a href="#">Deactive State</a></li></div>
-                <ul>
-                    <li><a href="#">Line of Business 1</a></li>
-                    <li><a href="#">Line of Business 2</a></li>
-                    <li><a href="#">Line of Business 3</a></li>
-                    <li><a href="#">Line of Business 4</a></li>
-                    <li><a href="#">Line of Business 5</a></li>
-                    <li><a href="#">Line of Business 6</a></li>
-                    <li><a href="#">Add Line of Business</a></li>
-                </ul>
-                <tr><div class="text_container hidden"><div><img src="assets/agent_info.png" style="align: right" height="50%;" width="50%;"></div>
-                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Agent...">
-                <tr>
-                <table id="myTable">
-                    
-                <tr class="header">
-                    <th style="width:33%;">Name</th>
-                    <th style="width:33%;">Line of Business</th>
-                    <th style="width: 33%;">Expiration Date</th>
-                </tr>
-                        <td>Agent Name 1</td>
-                        <td>Primary Line of Business</td>
-                        <td>Expiration Date</td>
-                    </tr>
-                    <tr>
-                        <td>Agent Name 2</td>
-                        <td>Primary Line of Business</td>
-                        <td>Expiration Date</td>
-                    </tr>
-                    <tr><div class="text_container">
-                        <td>Agent Name 3</td>
-                        <td>Primary Line of Business</td>
-                        <td>Expiration Date</td></div>
-                    </tr>
-                    <tr><div class="text_container">
-                        <td>Agent Name 4</td>
-                        <td>Primary Line of Business</td>
-                        <td>Expiration Date</td></div>
-                    </tr>
-                    <tr><div class="text_container">
-                        <td>Agent Name 5</td>
-                        <td>Primary Line of Business</td>
-                        <td>Expiration Date</td></div>
-                    </tr>
-                    <tr><div class="text_container">
-                        <td>Agent Name 6</td>
-                        <td>Primary Line of Business</td>
-                        <td>Expiration Date</td></div>
-                    </tr>
-                    <tr><div class="text_container">
-                        <td>Agent Name 7</td>
-                        <td>Primary Line of Business</td>
-                        <td>Expiration Date</td></div>
-                    </tr>
-                    <tr><div class="text_container">
-                        <td>Agent Name 8</td>
-                        <td>Primary Line of Business</td>
-                        <td>Expiration Date</td></div>
-                    </tr>
-                    <tr><div class="text_container">
-                        <td>Agent Name 9</td>
-                        <td>Primary Line of Business</td>
-                        <td>Expiration Date</td></div>
-                    </tr>
-                    <tr><div class="text_container">
-                        <td>Agent Name 10</td>
-                        <td>Primary Line of Business</td>
-                        <td>Expiration Date</td></div>
-                    </tr>
-                </div>
-                </table>
-            </div>
+                <li><a href="#">Alabama</a></li>
+                <li><a href="#">Arkansas</a></li>
+                <li><a href="#">California</a></li>
+                <li><a href="#">Connecticut</a></li>
+                <li><a href="#">Delaware</a></li>
+                <li><a href="#">Hawaii</a></li>
+                <li><a href="#">Illinois</a></li>
+                <li><a href="#">Michigan</a></li>
+                <li><a href="#">Missouri</a></li>
+                <li><a href="#">Nebraska</a></li>
+                <li><a href="#">Oregon</a></li>
+                <li><a href="#">Pennsylvania</a></li>
+                <li><a href="#">Virginia</a></li>
+                <li><a href="#">Washington</a></li>
+            </ul>
         </div>
-    </section>
-</main>
+    </nav>
+    <main role="main">
+        <section class="content">
+            <div class="container">
+                <div class="header">
+                    <a href="#">
+                        <p>Search Agencies</p>
+                    </a>
+                    <ul>
+                        <a href="#">
+                            <li>All Agencies</li>
+                        </a>
+                        <a href="#">
+                            <li>Account Settings</li>
+                        </a>
+                        <a href="#">
+                            <li>Help</li>
+                        </a>
+                        <a href="#">
+                            <li>BriteCore</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="dash">
+                    <br><br><br><br>
+                    <h2>California</h2>
+                    <div class="title">
+                        <ul>
+                            <li>License #2329101-2343921</li>
+                            <li><a href="#">Deactive State</a></li>
+                    </div>
+                    <ul>
+                        <li><a href="#">Line of Business 1</a></li>
+                        <li><a href="#">Line of Business 2</a></li>
+                        <li><a href="#">Line of Business 3</a></li>
+                        <li><a href="#">Line of Business 4</a></li>
+                        <li><a href="#">Line of Business 5</a></li>
+                        <li><a href="#">Line of Business 6</a></li>
+                        <li><a href="#">Add Line of Business</a></li>
+                    </ul>
+
+                    <div>
+                        <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for Agent...">
+                    </div>
+                    <div class="text_container hidden">
+
+                        <table id="myTable">
+
+                            <tr class="header">
+                                <th style="width:33%;">Name</th>
+                                <th style="width:33%;">Line of Business</th>
+                                <th style="width: 33%;">Expiration Date</th>
+                            </tr>
+                            <tr>
+                                <td>Agent Name 1</td>
+                                <td>Primary Line of Business</td>
+                                <td>Expiration Date</td>
+                            </tr>
+
+                            </tr>
+                            <tr>
+                                <td>Agent Name 2</td>
+                                <td>Primary Line of Business</td>
+                                <td>Expiration Date</td>
+                            </tr>
+                            <tr>
+                                    <td>Agent Name 3</td>
+                                    <td>Primary Line of Business</td>
+                                    <td>Expiration Date</td>
+                            </tr>
+                            <tr>
+                                    <td>Agent Name 4</td>
+                                    <td>Primary Line of Business</td>
+                                    <td>Expiration Date</td>
+                            </tr>
+                            <tr>
+                                    <td>Agent Name 5</td>
+                                    <td>Primary Line of Business</td>
+                                    <td>Expiration Date</td>
+                            </tr>
+                            <tr>
+                                    <td>Agent Name 6</td>
+                                    <td>Primary Line of Business</td>
+                                    <td>Expiration Date</td>
+                            </tr>
+                            <tr>
+                                    <td>Agent Name 7</td>
+                                    <td>Primary Line of Business</td>
+                                    <td>Expiration Date</td>
+
+                            </tr>
+                            <tr>
+
+                                    <td>Agent Name 8</td>
+                                    <td>Primary Line of Business</td>
+                                    <td>Expiration Date</td>
+                            </tr>
+                            <tr>
+                                    <td>Agent Name 9</td>
+                                    <td>Primary Line of Business</td>
+                                    <td>Expiration Date</td>
+                            </tr>
+                            <tr>
+                                    <td>Agent Name 10</td>
+                                    <td>Primary Line of Business</td>
+                                    <td>Expiration Date</td>
+                            </tr>
+                        </table>
+
+                        <div><img src="assets/agent_info.png" style="text-align: right; z-index: 500"></div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <script src="scripts/app.js"></script>
 </body>
-    
+
 </html>
-    

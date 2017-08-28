@@ -37,7 +37,11 @@ p {
     font-weight: 100;
 }
 
-   
+img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}   
 
 /*GRID*/
 
@@ -227,14 +231,15 @@ p {
 
 @media (min-width: 768px) {
     .content {
-        padding: 1em 5%;
+        padding: 15px 30px;
         float: right;
-        width: 95%;
+        width: calc(100% - 285px);
         position: relative;
     }
     
     .content > .container {
-        width: 1000px;
+        /* width: 1000px; */
+        width: 100%;
     }
     
 #myInput {
@@ -249,10 +254,12 @@ p {
 
 #myTable {
     border-collapse: collapse; 
-    width: 50%; 
     overflow-y: auto;
     border: 1px solid #ddd; 
-    font-size: 12px; 
+    font-size: 12px;
+    display: inline-block;
+    width: 50%; 
+    vertical-align: middle;
 }
 
 #myTable th, #myTable td {
@@ -309,6 +316,10 @@ p {
   padding-top: 10px;
 }
 
+.icon-close img {
+    width: 50px;
+}
+
 .drawer-menu {
   color: #fff;
   cursor: pointer;
@@ -321,9 +332,11 @@ p {
 }
 
 .visible>div {
-    display:inline;
-    margin-left: 55%;
+    display:inline-block;
+    width: calc(50% - 4px);
+    vertical-align: middle;
 }
+
 
 
     
